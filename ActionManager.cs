@@ -5,7 +5,7 @@
     /// </summary>
     public class ActionManager
     {
-        private static Queue<IAction> _actions = new Queue<IAction>();
+        private Queue<IAction> _actions = new Queue<IAction>();
 
         public void Order(IAction action)
         {
